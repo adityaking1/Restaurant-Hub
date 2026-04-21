@@ -25,3 +25,7 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 - `pnpm --filter @workspace/api-server run dev` — run API server locally
 
 See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details.
+
+## Artifacts
+
+- **resto-site** — Restaurant/cafe website (React + Vite). All editable content (brand name, theme colors, WhatsApp number, menu, about, gallery, testimonials, promos, blog) lives in **`artifacts/resto-site/src/config/site.ts`**. Edit that single file to customize the site for any restaurant.
